@@ -1,0 +1,29 @@
+Before running tasks 8 and 9, a new database will need to be created. To do this, simply run the create_db.py file. Please note that this will generate
+two database files: initial_database.db and task8_9_database.db. 
+
+** Please also note that if there is data in initial_database.db, this will be erased **
+
+### Task 8 In: ###
+
+- Run the application from the command line
+- You will be prompted to provide input for the csv file name (including the .csv extension)
+- Once input has been provided, the application will push the data into 'task8_9_database.db'
+
+### Task 8 Out: ###
+
+- Similar to before, run the application from the command line
+- You will be prompted to provide input for the database you would like to query - this will be choice between initial_database.db and task8_9_database.db
+- You will then be prompted to provide input for the starting and end date and time - please note that if you do not provide a date and time in the 
+  correct format, you will continue to be asked until you do
+- Once valid input hsa been provided, the application will produce a csv file named task8_out.csv in the current directory
+
+### Task 9 In: ###
+
+- Similar to task 8 in, you will be prompted for a csv file name and then the application will push the data into the task8_9_database.db file
+
+### Task 9 Out: ###
+
+- Similar to task 9 in, you will be prompted to provide the database file name which you would like to run the query on
+- Next, you will prompted to provide a date in a specific format until you do so
+- Please note that the application would not detect if you were to put the numbers in the wrong order e.g. DDMMYYYY
+- The query will then be sent to the database you indicated and a csv file named task9_out.csv will be produced in the current directory
